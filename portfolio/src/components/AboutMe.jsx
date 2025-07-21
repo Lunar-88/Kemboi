@@ -2,11 +2,11 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedinIn, faInstagram, faXTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faMailBulk, faFaceSmile, faListCheck, faCode } from '@fortawesome/free-solid-svg-icons';
+import { faLocationArrow, faIdCard, faHeart, faGlobe, faPhone, faBook } from '@fortawesome/free-solid-svg-icons';
 
 function AboutMe() {
   return (
-    <div className="bg-white px-8 pt-8">
+    <div className="bg-white px-8 pt-8 pb-10">
        <div className="">
          <h2 className="text-3xl font-bold mb-3 text-center">About <span className='text-purple-500'>Me</span></h2>
          <p className="text-gray-500 font-semibold pb-4 text-center">
@@ -20,9 +20,9 @@ function AboutMe() {
             <div className='flex p-4'>
                 <div className='flex flex-col justify-start'>
                   <div
-                    className='flex items-center'>
-                    <FontAwesomeIcon icon={faFaceSmile} className='p-1.5 text-l' />
-                     <h3 className="text-2xl font-semibold mt-8 mb-4">Bio</h3>
+                    className='flex items-center space-x-2'>
+                    <FontAwesomeIcon icon={faIdCard} className='p-1.5 text-xl border-transparent rounded-2xl bg-sky-300' />
+                     <h3 className="text-xl font-semibold mt-4 mb-4">Bio</h3>
                   </div>
                  <p className="text-gray-600">
                      I'm a Full Stack Developer with a passion for crafting intuitive and engaging web applications. My journey in tech has been fueled by curiosity and a desire to create impactful solutions.
@@ -30,9 +30,9 @@ function AboutMe() {
                 </div>
                 <div className='flex flex-col justify-start ml-8'>
                 <div
-                  className='flex items-center'>
-                    <FontAwesomeIcon icon={faListCheck} className='p-1.5 text-l' />
-                 <h3 className="text-2xl font-semibold mt-8 mb-4">Hobbies</h3>
+                  className='flex items-center space-x-2'>
+                    <FontAwesomeIcon icon={faHeart} className='p-1.5 text-xl border-transparent rounded-2xl bg-green-400' />
+                 <h3 className="text-xl font-semibold mt-4 mb-4 ">Hobbies</h3>
                  </div>
                  <p className="text-gray-600">
                      Enjoy playing video games, i.e FIFA & Call of Duty , reading novels, and exploring the outdoors. I believe in maintaining a balance between work and play to keep my creativity flowing.
@@ -40,9 +40,9 @@ function AboutMe() {
                 </div>
                 <div className='flex flex-col justify-start ml-8'>
                 <div
-                  className='flex items-center'>
-                    <FontAwesomeIcon icon={faCode} className='p-1.5 text-l' />
-                    <h3 className="text-2xl font-semibold mt-8 mb-4">Languages</h3>
+                  className='flex items-center space-x-2'>
+                    <FontAwesomeIcon icon={faGlobe} className='p-1.5 text-xl border-transparent rounded-2xl bg-amber-400' />
+                    <h3 className="text-xl font-semibold mt-4 mb-4">Languages</h3>
                  </div>
                  <p className="text-gray-600">
                      Fluent in English and Kiswahili. Also i don't mind learning any other new language to enhance my communication skills and connect with a wider audience.
@@ -52,8 +52,8 @@ function AboutMe() {
             <div className='flex p-4'>
                 <div>
                     <div 
-                      className='flex'><FontAwesomeIcon icon={faMailBulk} className='p-1.5 text-l'></FontAwesomeIcon>
-                      <h3 className="text-2xl font-semibold mb-4">Contact
+                      className='flex space-x-2'><FontAwesomeIcon icon={faPhone} className='p-1.5 text-xl border-transparent rounded-2xl bg-green-400'></FontAwesomeIcon>
+                      <h3 className="text-xl font-semibold mb-4">Contact
                       </h3>
                     </div>
                     <p className="text-gray-600">
@@ -64,8 +64,8 @@ function AboutMe() {
                 </div>
                 <div className='pl-32'>
                     <div
-                      className='flex'><FontAwesomeIcon icon={faCode} className='p-1.5 text-l'></FontAwesomeIcon>
-                      <h3 className="text-2xl font-semibold mb-4">Location</h3>
+                      className='flex space-x-2'><FontAwesomeIcon icon={faLocationArrow} className='p-1.5 text-xl border-transparent rounded-2xl bg-red-300'></FontAwesomeIcon>
+                      <h3 className="text-xl font-semibold mb-4">Location</h3>
                     </div>
                     <p className="text-gray-600">
                         Based in Nairobi, Kenya. Open to remote work opportunities and collaborations with teams around the world.
@@ -73,8 +73,8 @@ function AboutMe() {
                 </div>
                 <div className='pl-16'>
                     <div
-                    className='flex'><FontAwesomeIcon icon={faFaceSmile} className='p-1.5 text-l'></FontAwesomeIcon>
-                    <h3 className="text-2xl font-semibold mb-4">Education Summary</h3>
+                    className='flex space-x-2'><FontAwesomeIcon icon={faBook} className='p-2 text-l border-transparent rounded-2xl bg-green-600'></FontAwesomeIcon>
+                    <h3 className="text-xl font-semibold mb-4">Education Summary</h3>
                     </div>
                     <p className="text-gray-600">
                         Graduated from a Full-Stack BootCamp, Moringa School. Pursuing Software Engineering at JKUAT University.
