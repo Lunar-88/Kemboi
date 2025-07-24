@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faUsers, faTools, faLaptop, faServer, faCloud } from '@fortawesome/free-solid-svg-icons';
-import { faHtml5, faSquareJs, faNode, faCss3Alt, faReact, faPython, faJs, faLaravel, faPhp } from '@fortawesome/free-brands-svg-icons'
+import { faHtml5, faSquareJs, faNode, faCss3Alt, faReact, faPython, faJs, faLaravel, faPhp, faAws } from '@fortawesome/free-brands-svg-icons'
 
 function SkillsExpertise() {
   return (
