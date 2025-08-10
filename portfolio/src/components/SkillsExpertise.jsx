@@ -20,13 +20,13 @@ function SkillsExpertise() {
       <div className="font-semibold text-gray-700 text-sm sm:text-lg border-transparent rounded-4xl bg-white px-4 shadow-2xl py-3 mb-8 w-full sm:min-w-[300px] sm:max-w-[600px] mx-auto">
         <ul className="flex sm:flex-row items-center sm:justify-center sm:space-x-20 space-x-8 sm:space-y-0">
           <li className="flex items-center">
-            <FontAwesomeIcon icon={faCode} className="px-1.5 text-sm" /> Technical
+            <FontAwesomeIcon icon={faCode} className="px-1.5 text-md" /> Technical
           </li>
           <li className="flex items-center">
-          <FontAwesomeIcon icon={faEthereum} className="px-1.5 text-sm" /> Web 3
+          <FontAwesomeIcon icon={faEthereum} className="px-1.5 text-sky-400 text-lg" /> Web 3
           </li>
           <li className="flex items-center">
-            <FontAwesomeIcon icon={faTools} className="px-1.5 text-sm" /> Tools
+            <FontAwesomeIcon icon={faTools} className="px-1.5 text-md" /> Tools
           </li>
         </ul>
       </div>
